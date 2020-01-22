@@ -1,0 +1,17 @@
+.product-card{
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-color: rgba(0, 0, 0, 0.09);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    text-align: center;
+    
+    &__image{
+        width: 250px;
+    }
+
+    &__title{
+        height: 1.8em;
+        margin: 20px;
+    }
+}

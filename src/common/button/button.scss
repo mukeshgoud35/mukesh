@@ -1,0 +1,21 @@
+#btn{
+    margin: 10px;
+    background-color: rgb(204, 0, 0);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#btn:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
+}
+
+// usage of CSS specificity to override the button styles if applied as className attribute
